@@ -1,17 +1,13 @@
-package com.betterzhang.learnkotlin
-
-import com.betterzhang.learnkotlin.kymjs.Person
-
+package com.betterzhang.learnkotlin.kymjs
 
 /**
  * Created by IntelliJ IDEA.
  * Author : Andrew Zhang
  * Email  : betterzhang.dev@gmail.com
- * Time   : 2017/06/20 下午 5:29
- * Desc   : Hello Kotlin
+ * Time   : 2017/07/06 上午 10:01
+ * Desc   : description
  */
 
 fun main(args: Array<String>) {
-    println("Hello Kotlin")
     Person("Andrew Zhang").printName()
 }
