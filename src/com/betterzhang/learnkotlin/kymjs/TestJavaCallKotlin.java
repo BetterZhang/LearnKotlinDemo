@@ -12,8 +12,17 @@ public class TestJavaCallKotlin {
     public static void main(String[] args) {
         System.out.println(StringUtils.isEmpty("hello"));
         System.out.println(StringUtils.isEmpty(""));
+//        System.out.println(StringUtils.isEmpty(null));
+
+        System.out.println(StringUtils.INSTANCE.isEmpty2("haha"));
+
+        System.out.println(StringUtils2.Companion.isEmpty("Kotlin"));
 
         System.out.println(hasEmpty("hello", "world", ""));
+
+        // 调用Kotlin包级函数
+//        PackageLevelFuncKt.testPackageLevelFunc();      // 默认生成的
+        PackFun.testPackageLevelFunc();                   // @file:JvmName("PackFun")自定义生成的
     }
 
     public static boolean hasEmpty(String... strArray) {

@@ -71,6 +71,8 @@ fun main(args: Array<String>) {
     println(StringUtils.isEmpty("haha"))
     println(StringUtils.isEmpty2(""))
 
+    println(StringUtils2.isEmpty("Kotlin"))
+
 }
 
 fun say1(str: String): String {
