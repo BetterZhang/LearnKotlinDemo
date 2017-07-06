@@ -68,6 +68,9 @@ fun main(args: Array<String>) {
     var a: String? = null
     println(a?.length)
 
+    println(StringUtils.isEmpty("haha"))
+    println(StringUtils.isEmpty2(""))
+
 }
 
 fun say1(str: String): String {
