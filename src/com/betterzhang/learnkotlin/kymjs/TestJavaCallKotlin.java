@@ -23,6 +23,11 @@ public class TestJavaCallKotlin {
         // 调用Kotlin包级函数
 //        PackageLevelFuncKt.testPackageLevelFunc();      // 默认生成的
         PackFun.testPackageLevelFunc();                   // @file:JvmName("PackFun")自定义生成的
+
+        int i = 10;
+        while (i --> 0) {
+            System.out.println(i);
+        }
     }
 
     public static boolean hasEmpty(String... strArray) {
